@@ -128,6 +128,8 @@ And now we can use Cargo to build both the C and Rust code and run the program:
 
 - [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/)
 
+- 📖 Chapter 11: *"Foreign Function Interfaces"* in [Rust for Rustaceans](https://nostarch.com/rust-rustaceans) by Jon Gjengset
+
 - 📖 Chapter 23: *"Foreign Functions"* in [Programming Rust, 2nd Edition](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/) by Jim Blandy, Jason Orendorff & Leonora F. S. Tindall
 
 ## Further watching
