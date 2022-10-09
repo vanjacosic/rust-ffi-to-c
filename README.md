@@ -127,3 +127,7 @@ And now we can use Cargo to build both the C and Rust code and run the program:
 - [Rust FFI: Sending strings to the outside world | Huy's Blog](https://snacky.blog/en/string-ffi-rust.html)
 
 - [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/)
+
+## Further watching
+
+- [Crust of Rust: Build Scripts and Foreign-Function Interfaces (FFI)](https://www.youtube.com/watch?v=pePqWoTnSmQ)
