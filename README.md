@@ -122,9 +122,9 @@ And now we can use Cargo to build both the C and Rust code and run the program:
 
 - [Build Scripts - The Cargo Book](https://doc.rust-lang.org/cargo/reference/build-scripts.html)
 
-- [Deciphering Rust’s `#[no_mangle]` - pwnthebox.net](https://www.pwnthebox.net/rust/2020/11/01/deciphering-no-mangle.html)
+- [Deciphering Rust’s `#[no_mangle]` - pwnthebox.net](https://web.archive.org/web/20221113090341/https://www.pwnthebox.net/rust/2020/11/01/deciphering-no-mangle.html)
 
-- [Rust FFI: Sending strings to the outside world | Huy's Blog](https://snacky.blog/en/string-ffi-rust.html)
+- [Rust FFI: Sending strings to the outside world | Huy's Blog](https://web.archive.org/web/20221007224430/https://snacky.blog/en/string-ffi-rust.html)
 
 - [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/)
 
