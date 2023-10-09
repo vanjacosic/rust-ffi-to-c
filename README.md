@@ -124,8 +124,6 @@ And now we can use Cargo to build both the C and Rust code and run the program:
 
 - [Deciphering Rust’s `#[no_mangle]` - pwnthebox.net](https://www.pwnthebox.net/rust/2020/11/01/deciphering-no-mangle.html)
 
-- [Rust FFI: Sending strings to the outside world | Huy's Blog](https://snacky.blog/en/string-ffi-rust.html)
-
 - [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/)
 
 - 📖 Chapter 11: *"Foreign Function Interfaces"* in [Rust for Rustaceans](https://nostarch.com/rust-rustaceans) by Jon Gjengset
