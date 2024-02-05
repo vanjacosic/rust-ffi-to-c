@@ -59,17 +59,27 @@ First we compile our `multiply.c` file using a C compiler:
 
 The `-c` flag tells the C compiler to output a "object file (`.o`)" instead of an executable program. So it creates a `multiply.o` file that we can use as a shared dynamic library in our Rust code.
 
+Second we create a static library file libmultiply.a using the ar tool:
+
+    ar rcs libmultiply.a multiply.o
+
 Then we compile our program using the Rust compiler:
 
-    rustc src/main.rs -l multiply.o -L .
+    rustc src/main.rs -l multiply -L .
 
-The `-l multiply.o` option tells the Rust compiler to link the shared library.
+The `-l multiply` option tells the Rust compiler to link the shared library.
 The `-L .` option tells the Rust compiler to look for libraries in the current directory.
 
 The compiler creates an executable named `main` which we can run:
 
     ./main
-    Result: 25000
+    [Rust] Hello from Rust! 🦀
+    [Rust] Calling function in C..
+    [C] Hello from C!
+    [C] Input a is: 5000 
+    [C] Input b is: 5 
+    [C] Multiplying and returning result to Rust..
+    [Rust] Result: 25000
 
 ### 4. Automate 🤖
 
